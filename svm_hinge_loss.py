@@ -93,6 +93,7 @@ print("loss: ", L(X, y, W))
 time1 = time.time() - start_time
 print('Vectorized takes: {}'.format(time1))
 
+##this ouya add##
 start_time = time.time()
 for i in range(X.shape[1]):
 	losses += L_i(X[:, i], y[i], W)
